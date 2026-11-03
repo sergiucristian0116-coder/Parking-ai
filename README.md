@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ParkingAI
 
 ParkingAI combines a Tauri/React desktop interface, a Python camera-processing/API service, and a separate PWA client. The Android application is not part of this workspace; the versioned API contract is documented in [API.md](./API.md).
@@ -27,3 +28,7 @@ Camera definitions, user records, sessions, incidents, and audit records are sto
 For authorized LAN access set `PARKINGAI_HOST=0.0.0.0` and restrict the Windows firewall. Use a TLS-terminating reverse proxy for remote LAN/WAN access. Do not expose plain HTTP to the internet, and do not port-forward `PARKINGAI_PORT` directly to the internet. For real internet access (Android on 4G/5G, remote Wi-Fi) without opening any inbound port, use the outbound relay/gateway tunnel described in [REMOTE_ACCESS.md](./REMOTE_ACCESS.md) instead. The Android client should connect only to the API (directly on a LAN, or through the relay from the internet) and must never receive private RTSP URLs or camera passwords.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for service boundaries and current limitations, [CAMERA_SETUP.md](./CAMERA_SETUP.md) for camera registration, and [REMOTE_ACCESS.md](./REMOTE_ACCESS.md) for the remote-access tunnel and relay deployment guide.
+=======
+# Parking-ai
+AI-powered parking monitoring system with desktop software, vehicle detection, license plate recognition, and Android application integration.
+>>>>>>> 73f2277d04c77cbe5eeadb0540f98f6c85252e56
