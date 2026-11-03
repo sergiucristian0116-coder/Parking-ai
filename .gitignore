@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python environments and generated ParkingAI runtime data
+.venv/
+__pycache__/
+*.py[cod]
+ai-engine/.venv/
+ai-engine/data/local_secrets.json
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+**/local_secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# AI model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated data and backups
+backups/
+runs/
+ai-engine/output/
+ai-engine/runs/
+ai-engine/backups/
+
+# Python cache
+**/__pycache__/
+*.pyc

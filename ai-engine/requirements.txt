@@ -1,0 +1,6 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+cryptography>=44,<47
+onvif-zeep>=0.2.12,<1
+websockets>=17,<18
+httpx>=0.28,<1
